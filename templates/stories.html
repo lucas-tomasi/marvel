@@ -1,0 +1,24 @@
+<div class="content">
+    <h3 class="title">Histórias de {$hero}</h3>
+    <a href="index.php?page=FavoriteHeroesView&action=load" class="btn btn-secondary btn-sm">
+        <i class="fa fa-arrow-left"></i>
+        Voltar para personagens favoritos
+    </a>
+    <div class="row justify-content-center container-table">
+        <table class="table table-borderless table-responsive-md table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th class="w-50">Nome</th>
+                    <th>Descrição</th>
+                    <th>Tipo</th>
+                    <th>Criadores</th>
+                    <th>Personagens</th>
+                </tr>
+            </thead>
+            <tbody>
+                {$stories}
+            </tbody>
+        </table>
+    </div>
+</div>

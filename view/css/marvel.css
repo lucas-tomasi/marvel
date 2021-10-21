@@ -1,0 +1,35 @@
+.hero-card {
+    padding-top: 15px;
+}
+
+.hero-card .card {
+    margin: auto;
+}
+
+.hero-card .card-img-top {
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+    background-position: center;
+}
+
+.home {
+    height: calc( 100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    border-bottom: 1px solid #007bff;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.container-table {
+    padding:  0 15px;
+}
+
+.row.justify-content-center.container-table table tbody td {
+    vertical-align: middle;
+}
